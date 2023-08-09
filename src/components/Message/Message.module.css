@@ -1,0 +1,45 @@
+.user {
+  display: block;
+  margin-right: 8px;
+  margin-left: 8px;
+  font-size: 15px;
+  color: #8e8e8e;
+}
+
+.text {
+  padding: 10px;
+  margin-top: 8px;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 12px;
+  color: white;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.messageData {
+  display: inline-block;
+}
+
+.messages {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.currentUser {
+  align-self: flex-end;
+}
+
+.currentUser .user {
+  order: 0 !important;
+  text-align: right;
+}
+
+.currentUser > .messageData {
+  align-items: flex-end;
+}
+
+.currentUser .messageData {
+  align-self: flex-end;
+}
